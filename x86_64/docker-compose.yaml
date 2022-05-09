@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  gitlab:
+    image: gitlab/gitlab-ce
+    container_name: gitlab
+    ports:
+      - 8080:80
+      - 8443:443
